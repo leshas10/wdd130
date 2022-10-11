@@ -279,7 +279,7 @@ footer p a:hover {
    
     display: grid;
     gap: 10px;
-    grid-template-columns:repeat(10, 1fr);
+    grid-template-columns:repeat(11, 1fr);
     margin: 0 auto;
    
     /*font-size: 22px;*/
@@ -307,7 +307,7 @@ footer p a:hover {
 }
 .grand-canyon{
     width: 400%;
-    grid-column: 1/2;
+    grid-column: 2/3;
     grid-row: 2/3;
     box-shadow: 5px 5px 10px #b4b1cf;
     align-self: center;
@@ -324,7 +324,7 @@ footer p a:hover {
 */
 .salmon-river{
     width: 400%;
-    grid-column: 1/2;
+    grid-column: 2/3;
     grid-row: 4/5;
     box-shadow: 5px 5px 10px #b4b1cf;
     align-self: center;
@@ -332,7 +332,7 @@ footer p a:hover {
 }
 .flip-card-grand {
     background-color: #3d405b;
-    grid-column: 5/10;
+    grid-column: 6/11;
     grid-row:2/3 ;
     border: 5px solid #E07a5f;
     width: 100%;
@@ -379,7 +379,7 @@ footer p a:hover {
 
 .flip-card {
     background-color: #3D405B;
-    grid-column: 5/10;
+    grid-column: 6/11;
     grid-row:4/5 ;
     border: 5px solid #E07a5f;
     width: 100%;
@@ -427,7 +427,7 @@ footer p a:hover {
 
 .desolation{
    width: 400%;
-    grid-column: 1/2;
+    grid-column: 2/3;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #b4b1cf;
     align-self: center;
@@ -442,7 +442,7 @@ footer p a:hover {
 }*/
 .flip-card-deso {
     background-color: #3d405b;
-    grid-column: 5/10;
+    grid-column: 6/11;
     grid-row:6/7 ;
     border: 5px solid #E07a5f;
     width: 100%;
