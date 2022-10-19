@@ -1,0 +1,194 @@
+/*@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+Canon+SC|Lato');*/
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Passions+Conflict&family=Shadows+Into+Light&display=swap');
+
+/*
+--primary-color: #5CE1E6   ;
+  --secondary-color: #03989E ;
+  --accent1-color: #CB6CE6;
+  --accent2-color: #F6F3EE;
+  --heading-font:  Shadows Into Light, sans-serif;
+  --paragraph-font: "Lemonada", Helvetica, sans-serif;*/
+#content { 
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+#logo_link {
+    justify-self: center; 
+    
+}
+.logo {
+    width: 150px; 
+}
+nav a {
+    text-align: center;
+    background-color: #f6f3ee;
+    color: #cb6ce6;
+    text-decoration: none;
+    padding: 35px;
+}
+nav {
+    padding:45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f3ee    
+}
+nav a:hover {
+    background-color: #cb6ce6;
+    color: #f6f3ee;
+}
+a {
+    padding: 25px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+body {
+    background-color: #03989E;
+    color: #5ce1e6;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    font-family: "Lemonada", Helvetica, sans-serif;
+}
+#back-msg   {
+    align-self: center;
+    width: 100%;
+    font-size: 25px;
+    grid-column:2/6;
+    grid-row: 1/3;
+    border: 10px solid gray;
+    padding: 25px;
+}
+back-box {
+    color: gray;
+}
+header {
+    background-color: #f6f3ee;
+    color: #cb6ce6;
+    display: grid;
+    grid-template-columns: 150px auto;
+    
+
+}
+/*#cake {
+    
+    grid-column: 2/3;
+    grid-row: 2;
+    z-index: -1;
+}
+.cake-card {
+    text-align: center;
+    border: 10px;
+    color: #f6f3ee;
+    grid-column: 
+}*/
+#starwars {
+    grid-column: 7/9;
+    grid-row: 1/3;
+    margin-top: 90px;  
+    
+}
+.about-me {
+    background-color: #f6f3ee;
+    color: #03989E;
+    line-height: 2em;
+    grid-column: 2/10;
+    grid-row: 7/10;
+    margin-top: 100px;
+    padding: 25px;    
+    margin-bottom: -100px;
+}
+footer{
+    background-color: #f6f3ee; 
+    color: #cb6ce6;
+    padding: 20px 30px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+}
+.social{
+    padding-top: 10px;
+  
+}
+footer a{
+    color: #cb6ce6;
+    text-decoration: underline; 
+}
+footer a:hover {
+    color:#f6f3ee;
+    background-color: #cb6ce6;
+}
+/*
+SWEETS PAGE
+.content2{  
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}  
+   
+.home-grid-2 {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr;
+   
+   /* justify-content: space-evenly;
+    grid-gap: 10px;*/
+   
+/*
+}
+.home-title2 {
+    background-color: #cb6ce6;
+    color: #03989E;
+    text-align: center;
+    grid-column:2/3;
+    grid-row: 1/2;
+    margin-top: 10px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+#background2-img  {
+    width: 100%;
+   text-align: center;
+   padding: 30px;
+}
+#background2 h3 {
+    font-size: 50px;
+    background-color: #f6f3ee;
+    border-radius: 10px;
+    grid-column: 2/6;
+    grid-row: 1/2;
+    margin-top: 100px;
+    z-index: 1;
+    
+}
+#background2{
+    height: 725px;
+    grid-column: 2/5;
+    grid-row: 2/3;
+    z-index: -1;
+
+   /* max-width: 100%;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  
+    background-color: #f6f3ee
+*/
+/*
+}
+.home-grid-2 h3 {
+    text-align: center;
+    grid-row: 2/3;
+    grid-column: 1/6;
+
+}
+.words-grid {
+    grid-row: 4/6;
+    grid-column: 1/6;
+}
+
+*/
