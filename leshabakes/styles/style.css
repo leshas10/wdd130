@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+Canon+SC|Lato');*/
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+Canon+SC|Lato');
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Passions+Conflict&family=Shadows+Into+Light&display=swap');
 
 /*I ADDED HOVER OVERLAY TO my sweets page.
@@ -61,6 +61,7 @@ body {
     border: 10px solid gray;
     padding: 25px;
     margin-bottom: 100px;
+    font-family: "Shadows Into Light", sans-serif;
 }
 back-box {
     color: gray;
